@@ -32,7 +32,7 @@ namespace pvp_status
             return data;
             */
             OpenUrl(url);
-            return await CreateListener();
+            return CreateListener();
             //var client = new HttpClient();
             //return await client.GetStringAsync(url);
             //Authenticate(url);
@@ -40,25 +40,18 @@ namespace pvp_status
 
         }
 
-        private async Task<string> CreateListener()
+        private string CreateListener()
         {
             using var listener = new HttpListener();
             listener.Prefixes.Add("http://localhost:553/");
+            listener.AuthenticationSchemes = AuthenticationSchemes.Negotiate;
 
             listener.Start();
 
             var context = listener.GetContext();
-
-            Console.WriteLine("Listening on port 553...");
-
-            while (true)
-            {
-                HttpListenerContext ctx = listener.GetContext();
-                using HttpListenerResponse resp = ctx.Response;
-                return resp.ToString();
-                //resp.StatusCode = (int)HttpStatusCode.OK;
-                //resp.StatusDescription = "Status OK";
-            }
+            HttpListenerRequest request = context.Request;
+            HttpListenerResponse response = context.Response;
+            return request.InputStream.ToString();
         }
 
         private async Task<string> CreateTokenListener()

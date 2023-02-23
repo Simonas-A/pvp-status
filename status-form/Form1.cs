@@ -47,10 +47,10 @@ namespace status_form
         private async void Form1_KeyDown(object sender, KeyEventArgs e)
         {
             
-            string status = await GetStatus();
+            //string status = await GetStatus();
             // Newtonsoft json deserialize
-            var userPresence = JsonConvert.DeserializeObject<UserPresence>(status);
-            label1.Text = userPresence.activity;
+            //var userPresence = JsonConvert.DeserializeObject<UserPresence>(status);
+            //label1.Text = userPresence.activity;
             //Console.WriteLine(userPresence.activity);
         }
 
@@ -68,7 +68,7 @@ namespace status_form
                 request.Headers.Authorization = new AuthenticationHeaderValue("bearer", accessToken.Token);
             }
         }
-
+        /*
         async Task<string> GetStatus()
         {
             var _tokenCredential = new TokenCredential();
@@ -87,5 +87,6 @@ namespace status_form
             string url = "https://graph.microsoft.com/v1.0/me/presence";
             return await client.GetStringAsync(url);
         }
+        */
     }
 }
