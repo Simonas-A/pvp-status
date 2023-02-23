@@ -43,22 +43,21 @@ namespace pvp_status
         private string CreateListener()
         {
             using var listener = new HttpListener();
-            listener.Prefixes.Add("http://localhost:553/");
+            listener.Prefixes.Add("http://localhost:8088/");
             listener.AuthenticationSchemes = AuthenticationSchemes.Negotiate;
 
             listener.Start();
 
             var context = listener.GetContext();
             HttpListenerRequest request = context.Request;
-            HttpListenerResponse response = context.Response;
-            return request.InputStream.ToString();
+            return request.RawUrl.Substring(7);
         }
 
         private async Task<string> CreateTokenListener()
         {
             var client = new HttpClient();
             //var request = new HttpRequestMessage(HttpMethod.Get, "http://localhost");
-            var response = await client.GetAsync("http://localhost:553");
+            var response = await client.GetAsync("http://localhost:8088");
             if (!response.IsSuccessStatusCode)
             {
                 Console.WriteLine(response.StatusCode.ToString());
