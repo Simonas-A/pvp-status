@@ -1,0 +1,61 @@
+﻿@page "/counter"
+@using BlazorApp1.Data
+@inject WeatherForecastService ForecastService
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+<button class="btn btn-secondary" @onclick="StatusClick">Get status</button>
+
+<p>@text</p>
+
+
+@code {
+    private int currentCount = 0;
+
+    private string text = "";
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+
+    private void StatusClick()
+    {
+        Console.WriteLine("OPA");
+        text = "bomba";
+        try
+        {
+            OpenAuth();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+
+
+        //OpenUrl(url);
+    }
+
+    private void OpenUrl(string url)
+    {
+        //var js = (IJSRuntime)JSRuntime.Current;
+
+        //js.InvokeAsync<object>("open", url, "_blank");
+
+    }
+
+    protected async Task OpenAuth()
+    {
+        text = "request sent";
+        await ForecastService.OpenAuth();
+
+        //forecasts = await ForecastService.GetForecastAsync(DateOnly.FromDateTime(DateTime.Now));
+    }
+}
+}

@@ -1,0 +1,77 @@
+﻿@page "/code"
+@using Azure.Identity;
+@using BlazorApp1.Data
+@using Microsoft.AspNetCore.Mvc;
+@inject WeatherForecastService ForecastService
+@using Microsoft.Extensions.Configuration;
+@using Microsoft.Graph;
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<button class="btn btn-primary" @onclick="GetToken">Get token</button>
+
+<p>@text</p>
+
+<h1>@presence</h1>
+
+@code {
+    [Parameter]
+    [SupplyParameterFromQuery(Name = "code")]
+    [FromQuery(Name = "code")]
+    public string code { get; set; }
+
+    private string text = "Id = ";
+
+    private int currentCount = 0;
+
+    private string presence = "Unknown";
+
+
+    private void IncrementCount()
+    {
+        currentCount++;
+        text = "Code = " + code;
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        text = "Code = " + code;
+    }
+
+    private async void GetToken()
+    {
+        var scopes = new[] { "Presence.Read" };
+
+        var tenantId = "930cb5c9-d7f2-4958-9166-cc23ab9952c6";
+        var clientId = "62e38b84-e68d-48b7-be12-998f1dd8c19b";
+        var clientSecret = "Bxr8Q~hQJrHsDovZp4AYrzPnN4lgDR1SkTZfGa4G";
+        var userId = "ca55a8cb-1935-49c3-8b52-c7d1263b6ed5";
+
+        // For authorization code flow, the user signs into the Microsoft
+        // identity platform, and the browser is redirected back to your app
+        // with an authorization code in the query parameters
+        var authorizationCode = code;
+
+        // using Azure.Identity;
+        var options = new TokenCredentialOptions
+            {
+                AuthorityHost = AzureAuthorityHosts.AzurePublicCloud,
+                
+            };
+
+        // https://learn.microsoft.com/dotnet/api/azure.identity.authorizationcodecredential
+        var authCodeCredential = new AuthorizationCodeCredential(
+            tenantId, clientId, clientSecret, authorizationCode, options);
+
+        var graphClient = new GraphServiceClient(authCodeCredential, scopes, );
+
+        //graphClient
+        var pres = await graphClient.Me.Presence.GetAsync();
+        presence = pres.Availability.ToString();
+    }
+}
