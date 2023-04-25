@@ -1,0 +1,222 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('ca55a8cb-1935-49c3-8b52-c7d1263b6ed5')/calendarView",
+  "value": [
+    {
+      "@odata.etag": "W/\"BFiRBf26eUWPmFdK8wrwpAACcyHZlA==\"",
+      "id": "AAMkAGQ1MWM4ZmNiLTBkZDQtNGVjZS05NDgxLWMxNTIyMWRkZjJkYwFRAAgI20d7go7AAEYAAAAA6eaCPlgdbUGr816XRGX-IgcABFiRBf26eUWPmFdK8wrwpAAAAAABDQAABFiRBf26eUWPmFdK8wrwpAACR-CRygAAEA==",
+      "createdDateTime": "2023-04-05T10:20:42.0099057Z",
+      "lastModifiedDateTime": "2023-04-05T10:20:42.0940486Z",
+      "changeKey": "BFiRBf26eUWPmFdK8wrwpAACcyHZlA==",
+      "categories": [],
+      "transactionId": null,
+      "originalStartTimeZone": "Europe/Vilnius",
+      "originalEndTimeZone": "Europe/Vilnius",
+      "iCalUId": "040000008200E00074C5B7101A82E00807E7041C00000000000000000000000000000000630000007643616C2D5569640100000036737236326372346364676A366262366335686A6562396B3674686A656262313635693369623970633870333465396E3635686A616F623636345F5232303233303231305430393030303040676F6F676C652E636F6D00",
+      "reminderMinutesBeforeStart": 10,
+      "isReminderOn": true,
+      "hasAttachments": true,
+      "subject": "PVP Peržiūra. Dizainas. 2 grupės",
+      "bodyPreview": "PVP Peržiūra. Dizainas. 2 grupėsGrupės:K309; K310Dėstytojas:lekt. Černiauskaitė Gintarėdoc. EIDUKYNAS DariusUžsiėmimo vieta:Dvyliktieji rūmai Studentų g. 56 , Kaunas. auditorija - 156 (Auditorija, vietų skaičius: 30)Šis įvykis buvo atnaujintasPake",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "isOrganizer": false,
+      "responseRequested": true,
+      "seriesMasterId": "AAMkAGQ1MWM4ZmNiLTBkZDQtNGVjZS05NDgxLWMxNTIyMWRkZjJkYwBGAAAAAADp5oI_WB1tQavzXpdEZf8iBwAEWJEF-bp5RY_YV0rzCvCkAAAAAAENAAAEWJEF-bp5RY_YV0rzCvCkAAJH8JHKAAA=",
+      "showAs": "tentative",
+      "type": "exception",
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkAGQ1MWM4ZmNiLTBkZDQtNGVjZS05NDgxLWMxNTIyMWRkZjJkYwFRAAgI20d7go7AAEYAAAAA6eaCPlgdbUGr816XRGX%2FIgcABFiRBf26eUWPmFdK8wrwpAAAAAABDQAABFiRBf26eUWPmFdK8wrwpAACR%2FCRygAAEA%3D%3D&exvsurl=1&path=/calendar/item",
+      "onlineMeetingUrl": null,
+      "isOnlineMeeting": false,
+      "onlineMeetingProvider": "unknown",
+      "allowNewTimeProposals": true,
+      "occurrenceId": "OID.AAMkAGQ1MWM4ZmNiLTBkZDQtNGVjZS05NDgxLWMxNTIyMWRkZjJkYwBGAAAAAADp5oI_WB1tQavzXpdEZf8iBwAEWJEF-bp5RY_YV0rzCvCkAAAAAAENAAAEWJEF-bp5RY_YV0rzCvCkAAJH8JHKAAA=.2023-04-28",
+      "isDraft": false,
+      "hideAttendees": false,
+      "responseStatus": {
+        "response": "notResponded",
+        "time": "0001-01-01T00:00:00Z"
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta name=\"color-scheme\" content=\"light dark\"><meta name=\"supported-color-schemes\" content=\"light dark\"><style><!--body, html{font-family:Roboto,Helvetica,Arial,sans-serif}body{margin:0;padding:0}#outlook a{padding:0}.ReadMsgBody{width:100%}.ExternalClass{width:100%}.ExternalClass *{line-height:100%}table, td{}img{border:0;height:auto;line-height:100%;outline:none;text-decoration:none}p{display:block;margin:13px 0}--></style><style><!--@media only screen and (max-width:580px) {}--></style><style><!--body, html{font-family:Roboto,Helvetica,Arial,sans-serif}@font-face{font-family:'Roboto';font-style:normal;font-weight:400}@font-face{font-family:'Roboto';font-style:normal;font-weight:500}@font-face{font-family:'Roboto';font-style:normal;font-weight:700}@font-face{font-family:'Material Icons Extended';font-style:normal;font-weight:400}@font-face{font-family:'Google Material Icons';font-style:normal;font-weight:400}.google-material-icons{font-family:'Google Material Icons';font-weight:normal;font-style:normal;font-size:24px;line-height:1;letter-spacing:normal;text-transform:none;display:inline-block;white-space:nowrap;word-wrap:normal;direction:ltr}@font-face{font-family:'Google Material Icons Filled';font-style:normal;font-weight:400}.google-material-icons-filled{font-family:'Google Material Icons Filled';font-weight:normal;font-style:normal;font-size:24px;line-height:1;letter-spacing:normal;text-transform:none;display:inline-block;white-space:nowrap;word-wrap:normal;direction:ltr}@font-face{font-family:'Google Sans';font-style:normal;font-weight:400}@font-face{font-family:'Google Sans';font-style:normal;font-weight:500}@font-face{font-family:'Google Sans';font-style:normal;font-weight:700}--></style><style><!--.body-container{padding-left:16px;padding-right:16px}--></style><style><!--u + .body .body-container, body[data-outlook-cycle] .body-container, #MessageViewBody .body-container{padding-left:0;padding-right:0}--></style><style><!--@media only screen and (min-width:580px) {.column-per-37{width:37%!important;max-width:37%}.column-per-63{width:63%!important;max-width:63%}}--></style><style><!--.appointment-buttons th{display:block;clear:both;float:left;margin-top:12px}.appointment-buttons th a{float:left}#MessageViewBody .appointment-buttons th{margin-top:24px}--></style><style><!--@media only screen and (max-width:580px) {table.full-width-mobile{width:100%!important}td.full-width-mobile{width:auto!important}}--></style><style><!--.main-container-inner, .info-bar-inner{padding:12px 16px!important}.main-column-table-ltr{padding-right:0!important}.main-column-table-rtl{padding-left:0!important}@media only screen and (min-width:580px) {.main-container-inner{padding:24px 32px!important}.info-bar-inner{padding:12px 32px!important}.main-column-table-ltr{padding-right:32px!important}.main-column-table-rtl{padding-left:32px!important}.appointment-buttons th{display:table-cell;clear:none}}.primary-text{color:#3c4043!important}.secondary-text, .phone-number a{color:#70757a!important}.accent-text{color:#1a73e8!important}.accent-text-dark{color:#185abc!important}.grey-button-text, .attachment-chip a{color:#5f6368!important}.primary-button{background-color:#1a73e8!important}.primary-button-text{color:#fff!important}.grey-infobar-text{color:#202124!important}@media (prefers-color-scheme: dark) {}--></style><style><!--@media (prefers-color-scheme: dark) {}--></style><style><!--.prevent-link a{color:inherit!important;text-decoration:none!important;font-size:inherit!important;font-family:inherit!important;font-weight:inherit!important;line-height:inherit!important}--></style></head><body class=\"body\"><span itemscope=\"\" itemtype=\"http://schema.org/InformAction\"><span itemprop=\"object\" itemscope=\"\" itemtype=\"http://schema.org/Event\"><meta itemprop=\"eventStatus\" content=\"http://schema.org/EventRescheduled\"><span itemprop=\"publisher\" itemscope=\"\" itemtype=\"http://schema.org/Organization\"><meta itemprop=\"name\" content=\"Google Calendar\"></span><meta itemprop=\"eventId/googleCalendar\" content=\"6sr62cr4cdgj6bb6c5hjeb9k6thjebb165i3ib9pc8p34e9n65hjaob664_20230428T080000Z\"><span itemprop=\"name\" style=\"display:none; font-size:1px; color:#fff; line-height:1px; height:0; max-height:0; width:0; max-width:0; opacity:0; overflow:hidden\">PVP Peržiūra. Dizainas. 2 grupės</span><meta itemprop=\"url\" content=\"https://calendar.google.com/calendar/event?action=VIEW&amp;eid=NnNyNjJjcjRjZGdqNmJiNmM1aGplYjlrNnRoamViYjE2NWkzaWI5cGM4cDM0ZTluNjVoamFvYjY2NF8yMDIzMDQyOFQwODAwMDBaIHNpbW9uYXMuYWxicmVjaHRhc0BrdHUuZWR1&amp;tok=MjMjZ2ludGFyZWNlcjQ5MUBnbWFpbC5jb203NDg0NmQyYjljZGM3ZDU3Mjk0ODNmZGNkMzY2ZjZmYzhjYzEzYzlh&amp;ctz=Europe%2FVilnius&amp;hl=lt&amp;es=0\"><span aria-hidden=\"true\"><time itemprop=\"startDate\" datetime=\"20230428T080000Z\"></time><time itemprop=\"endDate\" datetime=\"20230428T093000Z\"></time></span><div style=\"display:none; font-size:1px; color:#fff; line-height:1px; height:0; max-height:0; width:0; max-width:0; opacity:0; overflow:hidden\">Grupės:K309; K310Dėstytojas:lekt. Černiauskaitė Gintarėdoc. EIDUKYNAS DariusUžsiėmimo vieta:Dvyliktieji rūmai Studentų g. 56 , Kaunas. auditorija - 156 (Auditorija, vietų skaičius: 30)</div><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" align=\"center\" class=\"body-container\" style=\"width:100%\"><tbody><tr><td class=\"\" align=\"left\" style=\"\"><div aria-hidden=\"true\" style=\"height:16px\">&nbsp; </div><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" align=\"center\" class=\"\" style=\"width:100%\"><tbody><tr><td class=\"info-bar-inner\" style=\"background-color:#e6f4ea; color:#0d5327; padding:12px 32px; border-radius:8px; font-family:Roboto,sans-serif; font-size:14px; line-height:20px; text-align:left\"><span style=\"font-weight:700\">Šis įvykis buvo atnaujintas</span><br><span itemprop=\"about\" itemscope=\"\" itemtype=\"http://schema.org/Thing/Paragraph\" style=\"display:none\"><meta itemprop=\"description\" content=\"Pavadinimas atnaujintas\"></span><div style=\"\"><span style=\"font-weight:700\">Pakeista:</span> pavadinimas</div></td></tr></tbody></table><div aria-hidden=\"true\" style=\"height:12px\">&nbsp; </div><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" align=\"center\" class=\"\" style=\"width:100%\"><tbody><tr><td class=\"main-container-inner\" style=\"border:solid 1px #dadce0; border-radius:8px; direction:rtl; font-size:0; padding:24px 32px; text-align:left; vertical-align:top\"><div class=\"\" style=\"font-size:13px; text-align:left; direction:ltr; display:inline-block; vertical-align:top; width:100%; overflow:hidden; word-wrap:break-word\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" width=\"100%\" class=\"main-column-table-ltr\" style=\"padding-right:32px; padding-left:0; table-layout:fixed\"><tbody><tr><td class=\"main-column-td\" style=\"padding:0; vertical-align:top\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" width=\"100%\" style=\"table-layout:fixed\"><tbody><tr><td style=\"font-size:0; padding:0; text-align:left; word-break:break-word; padding-bottom:24px\"><div class=\"primary-text\" role=\"presentation\" style=\"font-family:Roboto,sans-serif; font-style:normal; font-weight:400; font-size:14px; line-height:20px; letter-spacing:0.2px; color:#3c4043; text-decoration:none\"><span>Grupės:<br>K309; K310<br><br>Dėstytojas:<br><b>lekt. Černiauskaitė Gintarė</b><br>doc. EIDUKYNAS Darius<br><br>Užsiėmimo vieta:<br>Dvyliktieji rūmai Studentų g. 56 , Kaunas. auditorija - 156 (Auditorija, vietų skaičius: 30)</span><meta itemprop=\"description\" content=\"Grupės:K309; K310Dėstytojas:lekt. Černiauskaitė Gintarėdoc. EIDUKYNAS DariusUžsiėmimo vieta:Dvyliktieji rūmai Studentų g. 56 , Kaunas. auditorija - 156 (Auditorija, vietų skaičius: 30)\"></div></td></tr><tr><td style=\"font-size:0; padding:0; text-align:left; word-break:break-word; padding-bottom:24px\"><div class=\"primary-text\" role=\"presentation\" style=\"font-family:Roboto,sans-serif; font-style:normal; font-weight:400; font-size:14px; line-height:20px; letter-spacing:0.2px; color:#3c4043; text-decoration:none\"><span aria-hidden=\"true\"><time itemprop=\"startDate\" datetime=\"20230428T080000Z\"></time><time itemprop=\"endDate\" datetime=\"20230428T093000Z\"></time></span><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"padding-bottom:4px\"><tbody><tr><td><h2 class=\"primary-text\" style=\"font-size:14px; color:#3c4043; text-decoration:none; font-weight:700; margin:0; padding:0\">Kada</h2></td></tr></tbody></table><span>2023 bal. 28 d., penktadienis ⋅ 11:00 – 12:30 (Rytų Europos laikas - Vilnius)</span></div></td></tr><tr><td style=\"font-size:0; padding:0; text-align:left; word-break:break-word; padding-bottom:24px\"><div class=\"primary-text\" role=\"presentation\" style=\"font-family:Roboto,sans-serif; font-style:normal; font-weight:400; font-size:14px; line-height:20px; letter-spacing:0.2px; color:#3c4043; text-decoration:none\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"padding-bottom:4px\"><tbody><tr><td><h2 class=\"primary-text\" style=\"font-size:14px; color:#3c4043; text-decoration:none; font-weight:700; margin:0; padding:0\">Vieta</h2></td></tr></tbody></table><span itemprop=\"location\" itemscope=\"\" itemtype=\"http://schema.org/Place\"><span itemprop=\"name\" class=\"primary-text notranslate\" style=\"font-family:Roboto,sans-serif; font-style:normal; font-weight:400; font-size:14px; line-height:20px; letter-spacing:0.2px; color:#3c4043; text-decoration:none\">Studentų g. 56 , Kaunas</span><br><a href=\"https://www.google.com/maps/search/Student%C5%B3+g.+56+,+Kaunas?hl=lt\" class=\"accent-text underline-on-hover\" itemprop=\"map\" style=\"display:inline-block; color:#1a73e8; text-decoration:none; font-weight:700\">Žr. žemėlapį</a></span></div></td></tr><tr><td style=\"font-size:0; padding:0; text-align:left; word-break:break-word; padding-bottom:24px\"><div class=\"primary-text\" role=\"presentation\" style=\"font-family:Roboto,sans-serif; font-style:normal; font-weight:400; font-size:14px; line-height:20px; letter-spacing:0.2px; color:#3c4043; text-decoration:none\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"padding-bottom:4px\"><tbody><tr><td><h2 class=\"primary-text\" style=\"font-size:14px; color:#3c4043; text-decoration:none; font-weight:700; margin:0; padding:0\">Svečiai</h2></td></tr></tbody></table><div style=\"padding-bottom:4px; text-align:left; color:#3c4042\"><div><span itemprop=\"attendee\" itemscope=\"\" itemtype=\"http://schema.org/Person\"><span itemprop=\"name\" class=\"notranslate\"><a href=\"mailto:gintarecer491@gmail.com\" class=\"primary-text underline-on-hover\" style=\"display:inline-block; color:#3c4043; text-decoration:none\">gintarecer491@gmail.com</a></span><meta itemprop=\"email\" content=\"gintarecer491@gmail.com\"></span><span itemprop=\"organizer\" itemscope=\"\" itemtype=\"http://schema.org/Person\"><meta itemprop=\"name\" content=\"gintarecer491@gmail.com\"><meta itemprop=\"email\" content=\"gintarecer491@gmail.com\"></span><span class=\"secondary-text\" style=\"color:#70757a; text-decoration:none\">– organizatorius</span></div><div><span itemprop=\"attendee\" itemscope=\"\" itemtype=\"http://schema.org/Person\"><span itemprop=\"name\" class=\"notranslate\"><a href=\"mailto:timas.akelis@ktu.edu\" class=\"primary-text underline-on-hover\" style=\"display:inline-block; color:#3c4043; text-decoration:none\">timas.akelis@ktu.edu</a></span><meta itemprop=\"email\" content=\"timas.akelis@ktu.edu\"></span><span class=\"secondary-text\" style=\"color:#70757a; text-decoration:none\"></span></div><div><span itemprop=\"attendee\" itemscope=\"\" itemtype=\"http://schema.org/Person\"><span itemprop=\"name\" class=\"notranslate\"><a href=\"mailto:ugne.zasciurinskaite@gmail.com\" class=\"primary-text underline-on-hover\" style=\"display:inline-block; color:#3c4043; text-decoration:none\">ugne.zasciurinskaite@gmail.com</a></span><meta itemprop=\"email\" content=\"ugne.zasciurinskaite@gmail.com\"></span><span class=\"secondary-text\" style=\"color:#70757a; text-decoration:none\"></span></div><div><span itemprop=\"attendee\" itemscope=\"\" itemtype=\"http://schema.org/Person\"><span itemprop=\"name\" class=\"notranslate\"><a href=\"mailto:aiste.grisiute@ktu.edu\" class=\"primary-text underline-on-hover\" style=\"display:inline-block; color:#3c4043; text-decoration:none\">aiste.grisiute@ktu.edu</a></span><meta itemprop=\"email\" content=\"aiste.grisiute@ktu.edu\"></span><span class=\"secondary-text\" style=\"color:#70757a; text-decoration:none\"></span></div><div><span itemprop=\"attendee\" itemscope=\"\" itemtype=\"http://schema.org/Person\"><span itemprop=\"name\" class=\"notranslate\"><a href=\"mailto:edgaras.masilionis@ktu.edu\" class=\"primary-text underline-on-hover\" style=\"display:inline-block; color:#3c4043; text-decoration:none\">edgaras.masilionis@ktu.edu</a></span><meta itemprop=\"email\" content=\"edgaras.masilionis@ktu.edu\"></span><span class=\"secondary-text\" style=\"color:#70757a; text-decoration:none\"></span></div><div><span itemprop=\"attendee\" itemscope=\"\" itemtype=\"http://schema.org/Person\"><span itemprop=\"name\" class=\"notranslate\"><a href=\"mailto:domantas.surka@ktu.edu\" class=\"primary-text underline-on-hover\" style=\"display:inline-block; color:#3c4043; text-decoration:none\">domantas.surka@ktu.edu</a></span><meta itemprop=\"email\" content=\"domantas.surka@ktu.edu\"></span><span class=\"secondary-text\" style=\"color:#70757a; text-decoration:none\"></span></div><div><span itemprop=\"attendee\" itemscope=\"\" itemtype=\"http://schema.org/Person\"><span itemprop=\"name\" class=\"notranslate\"><a href=\"mailto:beatrice.vainoraite@ktu.edu\" class=\"primary-text underline-on-hover\" style=\"display:inline-block; color:#3c4043; text-decoration:none\">beatrice.vainoraite@ktu.edu</a></span><meta itemprop=\"email\" content=\"beatrice.vainoraite@ktu.edu\"></span><span class=\"secondary-text\" style=\"color:#70757a; text-decoration:none\"></span></div><div><span itemprop=\"attendee\" itemscope=\"\" itemtype=\"http://schema.org/Person\"><span itemprop=\"name\" class=\"notranslate\"><a href=\"mailto:simonas.albrechtas@ktu.edu\" class=\"primary-text underline-on-hover\" style=\"display:inline-block; color:#3c4043; text-decoration:none\">simonas.albrechtas@ktu.edu</a></span><meta itemprop=\"email\" content=\"simonas.albrechtas@ktu.edu\"></span><span class=\"secondary-text\" style=\"color:#70757a; text-decoration:none\"></span></div><div><span itemprop=\"attendee\" itemscope=\"\" itemtype=\"http://schema.org/Person\"><span itemprop=\"name\" class=\"notranslate\"><a href=\"mailto:dominykas.rudelis@ktu.edu\" class=\"primary-text underline-on-hover\" style=\"display:inline-block; color:#3c4043; text-decoration:none\">dominykas.rudelis@ktu.edu</a></span><meta itemprop=\"email\" content=\"dominykas.rudelis@ktu.edu\"></span><span class=\"secondary-text\" style=\"color:#70757a; text-decoration:none\"></span></div><div><span itemprop=\"attendee\" itemscope=\"\" itemtype=\"http://schema.org/Person\"><span itemprop=\"name\" class=\"notranslate\"><a href=\"mailto:paulius.silkartas@ktu.edu\" class=\"primary-text underline-on-hover\" style=\"display:inline-block; color:#3c4043; text-decoration:none\">paulius.silkartas@ktu.edu</a></span><meta itemprop=\"email\" content=\"paulius.silkartas@ktu.edu\"></span><span class=\"secondary-text\" style=\"color:#70757a; text-decoration:none\"></span></div><div><span itemprop=\"attendee\" itemscope=\"\" itemtype=\"http://schema.org/Person\"><span itemprop=\"name\" class=\"notranslate\"><a href=\"mailto:simona.vagnoriute@ktu.edu\" class=\"primary-text underline-on-hover\" style=\"display:inline-block; color:#3c4043; text-decoration:none\">simona.vagnoriute@ktu.edu</a></span><meta itemprop=\"email\" content=\"simona.vagnoriute@ktu.edu\"></span><span class=\"secondary-text\" style=\"color:#70757a; text-decoration:none\"></span></div><div><span itemprop=\"attendee\" itemscope=\"\" itemtype=\"http://schema.org/Person\"><span itemprop=\"name\" class=\"notranslate\"><a href=\"mailto:dovydas.venckus@ktu.edu\" class=\"primary-text underline-on-hover\" style=\"display:inline-block; color:#3c4043; text-decoration:none\">dovydas.venckus@ktu.edu</a></span><meta itemprop=\"email\" content=\"dovydas.venckus@ktu.edu\"></span><span class=\"secondary-text\" style=\"color:#70757a; text-decoration:none\"></span></div><div><span itemprop=\"attendee\" itemscope=\"\" itemtype=\"http://schema.org/Person\"><span itemprop=\"name\" class=\"notranslate\"><a href=\"mailto:ugne.zasciurinskaite@ktu.edu\" class=\"primary-text underline-on-hover\" style=\"display:inline-block; color:#3c4043; text-decoration:none\">ugne.zasciurinskaite@ktu.edu</a></span><meta itemprop=\"email\" content=\"ugne.zasciurinskaite@ktu.edu\"></span><span class=\"secondary-text\" style=\"color:#70757a; text-decoration:none\"></span></div></div><a href=\"https://calendar.google.com/calendar/event?action=VIEW&amp;eid=NnNyNjJjcjRjZGdqNmJiNmM1aGplYjlrNnRoamViYjE2NWkzaWI5cGM4cDM0ZTluNjVoamFvYjY2NF8yMDIzMDQyOFQwODAwMDBaIHNpbW9uYXMuYWxicmVjaHRhc0BrdHUuZWR1&amp;tok=MjMjZ2ludGFyZWNlcjQ5MUBnbWFpbC5jb203NDg0NmQyYjljZGM3ZDU3Mjk0ODNmZGNkMzY2ZjZmYzhjYzEzYzlh&amp;ctz=Europe%2FVilnius&amp;hl=lt&amp;es=0\" class=\"accent-text underline-on-hover\" style=\"display:inline-block; color:#1a73e8; text-decoration:none; font-weight:700\">Peržiūrėti visą svečio informaciją</a></div></td></tr><tr><td style=\"font-size:0; padding:0; text-align:left; word-break:break-word; padding-bottom:0px\"><div class=\"primary-text\" style=\"color:#3c4043; text-decoration:none; font-family:Roboto,sans-serif; font-size:14px; line-height:20px; text-align:left\"><div><span style=\"font-weight:700\">Atsakyti</span><span class=\"secondary-text\" style=\"color:#70757a; text-decoration:none\"><a href=\"mailto:simonas.albrechtas@ktu.edu\" class=\"secondary-text underline-on-hover\" style=\"display:inline-block; color:#70757a; text-decoration:none\">simonas.albrechtas@ktu.edu</a></span></div></div></td></tr><tr><td style=\"font-size:0; padding:0; text-align:left; word-break:break-word; padding-bottom:16px\"><div style=\"font-family:Roboto,sans-serif; font-size:14px; line-height:20px; text-align:left\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"border-collapse:separate\"><tbody><tr><td style=\"padding-top:8px; padding-left:0; padding-right:12px\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"border:solid 1px #dadce0; border-radius:16px; border-collapse:separate; font-family:'Google Sans',Roboto,sans-serif; display:inline-block; margin-right:12px; margin-left:0\"><tbody><tr><td align=\"center\" role=\"presentation\"><span itemprop=\"potentialaction\" itemscope=\"\" itemtype=\"http://schema.org/RsvpAction\"><meta itemprop=\"attendance\" content=\"http://schema.org/RsvpAttendance/Yes\"><span itemprop=\"handler\" itemscope=\"\" itemtype=\"http://schema.org/HttpActionHandler\"><link itemprop=\"method\" href=\"http://schema.org/HttpRequestMethod/GET\"><span style=\"color:#5f6367\"><a href=\"https://calendar.google.com/calendar/event?action=RESPOND&amp;eid=NnNyNjJjcjRjZGdqNmJiNmM1aGplYjlrNnRoamViYjE2NWkzaWI5cGM4cDM0ZTluNjVoamFvYjY2NF8yMDIzMDQyOFQwODAwMDBaIHNpbW9uYXMuYWxicmVjaHRhc0BrdHUuZWR1&amp;rst=1&amp;tok=MjMjZ2ludGFyZWNlcjQ5MUBnbWFpbC5jb203NDg0NmQyYjljZGM3ZDU3Mjk0ODNmZGNkMzY2ZjZmYzhjYzEzYzlh&amp;ctz=Europe%2FVilnius&amp;hl=lt&amp;es=0\" class=\"grey-button-text\" itemprop=\"url\" style=\"font-weight:400; font-family:'Google Sans',Roboto,sans-serif; color:#5f6368; font-size:14px; line-height:120%; margin:0; text-decoration:none; text-transform:none\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\"><tbody><tr><td align=\"center\" role=\"presentation\" valign=\"middle\" style=\"padding:6px 0; padding-left:16px; padding-right:12px; white-space:nowrap\"><span class=\"grey-button-text\" style=\"font-weight:400; font-family:'Google Sans',Roboto,sans-serif; color:#5f6368; font-size:14px; line-height:120%; margin:0; text-decoration:none; text-transform:none\">Taip</span></td></tr></tbody></table></a></span></span></span></td><td align=\"center\" role=\"presentation\" style=\"border-left:solid 1px #dadce0; border-right:solid 1px #dadce0\"><span itemprop=\"potentialaction\" itemscope=\"\" itemtype=\"http://schema.org/RsvpAction\"><meta itemprop=\"attendance\" content=\"http://schema.org/RsvpAttendance/No\"><span itemprop=\"handler\" itemscope=\"\" itemtype=\"http://schema.org/HttpActionHandler\"><link itemprop=\"method\" href=\"http://schema.org/HttpRequestMethod/GET\"><span style=\"color:#5f6367\"><a href=\"https://calendar.google.com/calendar/event?action=RESPOND&amp;eid=NnNyNjJjcjRjZGdqNmJiNmM1aGplYjlrNnRoamViYjE2NWkzaWI5cGM4cDM0ZTluNjVoamFvYjY2NF8yMDIzMDQyOFQwODAwMDBaIHNpbW9uYXMuYWxicmVjaHRhc0BrdHUuZWR1&amp;rst=2&amp;tok=MjMjZ2ludGFyZWNlcjQ5MUBnbWFpbC5jb203NDg0NmQyYjljZGM3ZDU3Mjk0ODNmZGNkMzY2ZjZmYzhjYzEzYzlh&amp;ctz=Europe%2FVilnius&amp;hl=lt&amp;es=0\" class=\"grey-button-text\" itemprop=\"url\" style=\"font-weight:400; font-family:'Google Sans',Roboto,sans-serif; color:#5f6368; font-size:14px; line-height:120%; margin:0; text-decoration:none; text-transform:none\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\"><tbody><tr><td align=\"center\" role=\"presentation\" valign=\"middle\" style=\"padding:6px 12px; white-space:nowrap\"><span class=\"grey-button-text\" style=\"font-weight:400; font-family:'Google Sans',Roboto,sans-serif; color:#5f6368; font-size:14px; line-height:120%; margin:0; text-decoration:none; text-transform:none\">Ne</span></td></tr></tbody></table></a></span></span></span></td><td align=\"center\" role=\"presentation\"><span itemprop=\"potentialaction\" itemscope=\"\" itemtype=\"http://schema.org/RsvpAction\"><meta itemprop=\"attendance\" content=\"http://schema.org/RsvpAttendance/Maybe\"><span itemprop=\"handler\" itemscope=\"\" itemtype=\"http://schema.org/HttpActionHandler\"><link itemprop=\"method\" href=\"http://schema.org/HttpRequestMethod/GET\"><span style=\"color:#5f6367\"><a href=\"https://calendar.google.com/calendar/event?action=RESPOND&amp;eid=NnNyNjJjcjRjZGdqNmJiNmM1aGplYjlrNnRoamViYjE2NWkzaWI5cGM4cDM0ZTluNjVoamFvYjY2NF8yMDIzMDQyOFQwODAwMDBaIHNpbW9uYXMuYWxicmVjaHRhc0BrdHUuZWR1&amp;rst=3&amp;tok=MjMjZ2ludGFyZWNlcjQ5MUBnbWFpbC5jb203NDg0NmQyYjljZGM3ZDU3Mjk0ODNmZGNkMzY2ZjZmYzhjYzEzYzlh&amp;ctz=Europe%2FVilnius&amp;hl=lt&amp;es=0\" class=\"grey-button-text\" itemprop=\"url\" style=\"font-weight:400; font-family:'Google Sans',Roboto,sans-serif; color:#5f6368; font-size:14px; line-height:120%; margin:0; text-decoration:none; text-transform:none\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\"><tbody><tr><td align=\"center\" role=\"presentation\" valign=\"middle\" style=\"padding:6px 0; padding-left:12px; padding-right:16px; white-space:nowrap\"><span class=\"grey-button-text\" style=\"font-weight:400; font-family:'Google Sans',Roboto,sans-serif; color:#5f6368; font-size:14px; line-height:120%; margin:0; text-decoration:none; text-transform:none\">Galbūt</span></td></tr></tbody></table></a></span></span></span></td></tr></tbody></table><a href=\"https://calendar.google.com/calendar/event?action=VIEW&amp;eid=NnNyNjJjcjRjZGdqNmJiNmM1aGplYjlrNnRoamViYjE2NWkzaWI5cGM4cDM0ZTluNjVoamFvYjY2NF8yMDIzMDQyOFQwODAwMDBaIHNpbW9uYXMuYWxicmVjaHRhc0BrdHUuZWR1&amp;tok=MjMjZ2ludGFyZWNlcjQ5MUBnbWFpbC5jb203NDg0NmQyYjljZGM3ZDU3Mjk0ODNmZGNkMzY2ZjZmYzhjYzEzYzlh&amp;ctz=Europe%2FVilnius&amp;hl=lt&amp;es=0\" class=\"grey-button-text\" style=\"display:inline-block; font-weight:400; font-family:'Google Sans',Roboto,sans-serif; color:#5f6368; font-size:14px; line-height:120%; margin:0; text-decoration:none; text-transform:none\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"border:solid 1px #dadce0; border-radius:16px; border-collapse:separate; font-family:'Google Sans',Roboto,sans-serif\"><tbody><tr><td align=\"center\" role=\"presentation\" style=\"padding:6px 0; padding-left:16px; padding-right:12px; white-space:nowrap; color:#5f6367\"><span class=\"grey-button-text\" style=\"font-weight:400; font-family:'Google Sans',Roboto,sans-serif; color:#5f6368; font-size:14px; line-height:120%; margin:0; text-decoration:none; text-transform:none\">Daugiau parinkčių</span></td></tr></tbody></table></a></td></tr></tbody></table></div></td></tr></tbody></table></td></tr></tbody></table></div></td></tr></tbody></table><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" align=\"center\" class=\"\" style=\"width:100%\"><tbody><tr><td class=\"\" align=\"left\" style=\"font-size:0; padding:0; text-align:left; word-break:break-word; padding:4px 12px\"><div class=\"secondary-text\" style=\"color:#70757a; text-decoration:none; font-family:Roboto,sans-serif; font-size:12px; line-height:16px; text-align:left\"><p>Kvietimas iš <a href=\"https://calendar.google.com/calendar/\" class=\"accent-text underline-on-hover\" style=\"font-family:Roboto,sans-serif; font-size:12px; line-height:16px; color:#1a73e8; text-decoration:none\">„Google“ kalendoriaus</a></p><p>Gavote šį el. laišką, nes esate įvykio dalyvis (-ė). Jei norite nebegauti naujienų apie šį įvykį, atsisakykite šio įvykio.</p><p>Jei šis kvietimas bus persiųstas, bet kuris gavėjas galės siųsti atsakymą rengėjui, būti pridėtas prie svečių sąrašo, pakviesti kitų žmonių nepaisydamas savo paties kvietimo būsenos arba keisti jūsų atsakymą.<a href=\"https://support.google.com/calendar/answer/37135#forwarding\" class=\"accent-text underline-on-hover\" style=\"font-family:Roboto,sans-serif; font-size:12px; line-height:16px; color:#1a73e8; text-decoration:none\">Sužinokite daugiau</a></p></div></td></tr></tbody></table></td></tr></tbody></table></span></span></body></html>"
+      },
+      "start": {
+        "dateTime": "2023-04-25T08:00:00.0000000",
+        "timeZone": "UTC"
+      },
+      "end": {
+        "dateTime": "2023-04-25T09:30:00.0000000",
+        "timeZone": "UTC"
+      },
+      "location": {
+        "displayName": "Studentų g. 56 , Kaunas",
+        "locationType": "default",
+        "uniqueId": "Studentų g. 56 , Kaunas",
+        "uniqueIdType": "private"
+      },
+      "locations": [
+        {
+          "displayName": "Studentų g. 56 , Kaunas",
+          "locationType": "default",
+          "uniqueId": "Studentų g. 56 , Kaunas",
+          "uniqueIdType": "private"
+        }
+      ],
+      "recurrence": null,
+      "attendees": [
+        {
+          "type": "required",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "gintarecer491@gmail.com",
+            "address": "gintarecer491@gmail.com"
+          }
+        },
+        {
+          "type": "required",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Akelis Timas",
+            "address": "timas.akelis@ktu.edu"
+          }
+        },
+        {
+          "type": "required",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "ugne.zasciurinskaite@gmail.com",
+            "address": "ugne.zasciurinskaite@gmail.com"
+          }
+        },
+        {
+          "type": "required",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Grišiūtė Aistė",
+            "address": "aiste.grisiute@ktu.edu"
+          }
+        },
+        {
+          "type": "required",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Masilionis Edgaras",
+            "address": "edgaras.masilionis@ktu.edu"
+          }
+        },
+        {
+          "type": "required",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Šurka Domantas",
+            "address": "domantas.surka@ktu.edu"
+          }
+        },
+        {
+          "type": "required",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Vainoraitė Beatričė",
+            "address": "beatrice.vainoraite@ktu.edu"
+          }
+        },
+        {
+          "type": "required",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Albrechtas Simonas",
+            "address": "simonas.albrechtas@ktu.edu"
+          }
+        },
+        {
+          "type": "required",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Rudelis Dominykas",
+            "address": "dominykas.rudelis@ktu.edu"
+          }
+        },
+        {
+          "type": "required",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Silkartas Paulius",
+            "address": "paulius.silkartas@ktu.edu"
+          }
+        },
+        {
+          "type": "required",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Vagnoriūtė Simona",
+            "address": "simona.vagnoriute@ktu.edu"
+          }
+        },
+        {
+          "type": "required",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Venckus Dovydas",
+            "address": "dovydas.venckus@ktu.edu"
+          }
+        },
+        {
+          "type": "required",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Zasčiurinskaitė Ugnė",
+            "address": "ugne.zasciurinskaite@ktu.edu"
+          }
+        }
+      ],
+      "organizer": {
+        "emailAddress": {
+          "name": "gintarecer491@gmail.com",
+          "address": "gintarecer491@gmail.com"
+        }
+      },
+      "onlineMeeting": null
+    }
+  ]
+}

@@ -28,6 +28,8 @@ namespace status_form
 
         private string Token;
         private string Status;
+        private CalendarResponse Calendar = null;
+        private MinimalCalendar CurrentEvent = null;
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -79,13 +81,13 @@ namespace status_form
 
         public class CalendarTime
         {
-            public CalendarTime(string dateTime, string timeZone)
+            public CalendarTime(DateTime dateTime, string timeZone)
             {
                 DateTime = dateTime;
                 TimeZone = timeZone;
             }
 
-            public string DateTime { get; set; }
+            public DateTime DateTime { get; set; }
             public string TimeZone { get; set; }
             
             
@@ -114,6 +116,15 @@ namespace status_form
             return JsonConvert.DeserializeObject<CalendarResponse>(resp);
         }
 
+        private async Task<CalendarResponse> GetCalendarAsyncMockDateNow()
+        {
+            string resp = System.IO.File.ReadAllText("../../Response2.json");
+            CalendarResponse response = JsonConvert.DeserializeObject<CalendarResponse>(resp);
+            response.Value[0].Start.DateTime = DateTime.Now.AddMinutes(1);
+            response.Value[0].End.DateTime = DateTime.Now.AddMinutes(2);
+            return response;
+        }
+
         private async Task<CalendarResponse> GetCalendarAsync()
         {
             string url = "https://graph.microsoft.com/v1.0/me/calendarview?startdatetime=2023-04-24T20:48:00.115Z&enddatetime=2023-05-06T20:48:00.116Z";
@@ -132,14 +143,66 @@ namespace status_form
 
         private async void button2_Click(object sender, EventArgs e)
         {
-            CalendarResponse calendar = await GetCalendarAsyncMock();
+            //CalendarResponse calendar = await GetCalendarAsyncMock();
+            Calendar = await GetCalendarAsyncMockDateNow();
+
             label1.Text = "";
 
-            foreach (var item in calendar.Value)
+            foreach (var item in Calendar.Value)
             {
                 label1.Text += $"{item.Subject} {item.Start.DateTime}\n";
             }
 
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            int totalSeconds = (int)(CurrentEvent.End.DateTime - CurrentEvent.Start.DateTime).TotalSeconds;
+            int secondsLeft = (int)(CurrentEvent.End.DateTime - DateTime.Now).TotalSeconds;
+
+            int secondsToStart = (int)(CurrentEvent.Start.DateTime - DateTime.Now).TotalSeconds;
+            if (secondsToStart > 0)
+            {
+
+                label1.Text = $"Event \"{CurrentEvent.Subject}\" will start in {secondsToStart} seconds\nStatus: online";
+            }
+            else if (secondsLeft < 0)
+            {
+                timer1.Stop();
+                label1.Text = $"Event \"{CurrentEvent.Subject}\" ended \nStatus: online";
+                progressBar1.Value = 0;
+                return;
+            }
+            else
+            {
+                label1.Text = $"Active event: {CurrentEvent.Subject} {secondsLeft}/{totalSeconds}\nStatus: busy";
+                progressBar1.Value = (int)((float)secondsLeft / totalSeconds * 100);
+            }
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (Calendar == null)
+            {
+                MessageBox.Show("No calendar data");
+                return;
+            }
+
+            CurrentEvent = Calendar.Value.OrderBy(x => x.Start.DateTime).First();
+
+            //DateTime now = DateTime.Now;
+            //foreach (var item in Calendar.Value)
+            //{
+            //    if (item.Start.DateTime <= now && item.End.DateTime >= now)
+            //    {
+            //        label1.Text = "Active event: " + item.Subject;
+            //        CurrentEvent = item;
+            //        break;
+            //    }
+            //}
+
+            timer1.Start();
         }
     }
 }
