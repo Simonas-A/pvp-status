@@ -1,0 +1,6 @@
+﻿{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('ca55a8cb-1935-49c3-8b52-c7d1263b6ed5')/presence/$entity",
+  "id": "ca55a8cb-1935-49c3-8b52-c7d1263b6ed5",
+  "availability": "Available",
+  "activity": "Available"
+}

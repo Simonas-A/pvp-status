@@ -255,6 +255,9 @@
     </Compile>
     <None Include="Response2.json" />
     <None Include="Response.json" />
+    <None Include="ResponseSamples\BusyResponse.json" />
+    <None Include="ResponseSamples\AwayResponse.json" />
+    <None Include="ResponseSamples\AvailableResponse.json" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
